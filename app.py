@@ -27,6 +27,7 @@ def load_data():
     return df
 
 df = load_data()
+st.dataframe(df.head())
 
 # ----------------------------
 # Sidebar filters
