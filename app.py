@@ -23,7 +23,7 @@ st.markdown("Interactive dashboard for sales and profit insights")
 # ----------------------------
 @st.cache_data
 def load_data():
-    df = pd.read_csv("data/Sample - Superstore.csv", encoding="latin1")
+    df = pd.read_csv("data/Sample_Superstore.csv", encoding="latin1")
     return df
 
 df = load_data()
